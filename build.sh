@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #configuration
-APP_NAME="Hello World"
+APP_NAME="Pong-3ds-rust"
 APP_DESC="Luna's very useful program"
 APP_AUTHOR="Luna"
 
@@ -11,7 +11,7 @@ APP_BANNER_SOUND="./audio.cwav"
 
 LINK_IP_ADDR="192.168.0.18"
 
-ELF_NAME="Hello-World"
+ELF_NAME="Pong-3ds-rust"
 
 make_3dsx(){
   echo "make_3dsx"
