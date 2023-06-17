@@ -20,7 +20,7 @@ make_3dsx(){
 
 make_cia(){
   echo "make_cia"
-  makerom -f cia -o "./build/$APP_NAME.cia" -target t -elf "./target/armv6k-nintendo-3ds/debug/$ELF_NAME.elf" -banner "./build/banner.bin" -rsf ./app.rsf -icon "./build/Hello World.smdh"
+  makerom -f cia -o "./build/$APP_NAME.cia" -target t -elf "./target/armv6k-nintendo-3ds/debug/$ELF_NAME.elf" -banner "./build/banner.bin" -rsf ./app.rsf -icon "./build/$APP_NAME.smdh"
 }
 
 run_3dslink(){
