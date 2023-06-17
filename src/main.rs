@@ -21,6 +21,6 @@ fn main(){
             break;
         }
 
-        print!("{}", hid.circlepad_position());
+        print!("{}, {}", hid.circlepad_position().0, hid.circlepad_position().1);
     }
 }
