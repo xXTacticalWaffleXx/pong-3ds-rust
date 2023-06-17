@@ -3,7 +3,7 @@
 version = 3
 
 [[package]]
-name = "Hello-World"
+name = "Pong-3ds-rust"
 version = "0.1.0"
 dependencies = [
  "ctru-rs",
