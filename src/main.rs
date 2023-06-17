@@ -1,7 +1,7 @@
 use ctru::applets::swkbd::{Button, Swkbd};
 use ctru::prelude::*;
 
-fn main(){
+fn main() {
     ctru::use_panic_handler();
 
     let apt = Apt::new().unwrap();
@@ -18,7 +18,7 @@ fn main(){
         gfx.wait_for_vblank();
 
         hid.scan_input();
-        
+
         if hid.keys_down().contains(KeyPad::START) {
             break;
         }
